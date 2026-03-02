@@ -1,0 +1,15 @@
+
+{
+  "name": "serverest-tests",
+  "version": "1.0.0",
+  "description": "Automated test suite for Serverest user registration module",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.3.3"
+  }
+}
